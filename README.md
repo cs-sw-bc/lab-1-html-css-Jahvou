@@ -1,3 +1,20 @@
+# Stride - Shoe Store (Homepage)
+
+This repository contains a simple, responsive homepage for a shoe store built with only HTML and CSS.
+
+Files:
+- `index.html` — the homepage
+- `styles.css` — styles for the page
+
+To view the page, open `index.html` in your browser (double-click or right-click -> Open with -> your browser).
+
+No build tools or dependencies required.
+
+Adding a banner image
+---------------------
+To add a real image to the hero/banner area, create an `assets` folder in the project root and place your image named `hero-shoe.jpg` there. The markup in `index.html` references `assets/hero-shoe.jpg` by default.
+
+Recommended image size: 1600x900 or similar (keep aspect ratio). Use JPEG or PNG. The CSS will crop with `object-fit: cover` so a centered composition works best.
 # 🧪 Lab 1: Building a Responsive Website with AI
 
 **Duration:** 2 hours 30 minutes  
